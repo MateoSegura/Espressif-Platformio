@@ -22,8 +22,7 @@
 #include <stdarg.h>
 
 // RTOS includes
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
+#include "rtos.h"
 
 // ANZE includes
 #include "global_config.h"

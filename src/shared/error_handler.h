@@ -21,8 +21,7 @@
 #include <stdint.h>
 
 // RTOS includes
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
+#include "rtos.h"
 
 // AMV includes
 #include "error_no.h"

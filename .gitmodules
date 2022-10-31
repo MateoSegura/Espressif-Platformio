@@ -1,0 +1,3 @@
+[submodule "src/drivers/mcal"]
+	path = src/drivers/mcal
+	url = https://github.com/MateoSegura/MCAL.git

@@ -14,12 +14,13 @@
 
 #pragma once
 
-// FreeRTOS includes
-#include "freertos/FreeRTOS.h"
+// RTOS includes
+#include "rtos.h"
 
 /*----------------------------------------------------------------------------------------------------------
  *                                                                                             General Erros
  *--------------------------------------------------------------------------------------------------------*/
+#define errNOT_IMPLEMENTED ((BaseType_t)-999)
 #define errUNKNOWN ((BaseType_t)-1000)
 #define errINIT_FAIL ((BaseType_t)-1001)
 #define errNULL_CONFIG ((BaseType_t)-1002)
