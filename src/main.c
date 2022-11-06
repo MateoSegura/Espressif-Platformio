@@ -16,7 +16,7 @@ void app_main()
   BaseType_t status = I2C_Init(0, &i2cConfig);
 
   if (status != pdTRUE)
-    ERROR("Tu mama we\n");
+    ERROR("Nice man its working\n");
 
   while (true)
   {
